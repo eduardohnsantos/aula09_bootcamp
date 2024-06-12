@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aula09-bootcamp"
+version = "0.1.0"
+description = ""
+authors = ["Eduardo <eduardo.hnsantos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.5"
+loguru = "^0.7.2"
+sentry-sdk = "^2.5.1"
+pandas = "^2.2.2"
+pyarrow = "^16.1.0"
+tenacity = "^8.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
